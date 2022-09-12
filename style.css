@@ -1,0 +1,76 @@
+.mapouter
+{position:relative;
+text-align:right;
+height:400px;
+width:500px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:500px;
+    }
+
+ body{
+     align-items: center;
+      /* background: #43AFFC; */
+      /* background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/02/typified-weather-poster-4.gif);
+      background-image: url(https://assets.materialup.com/uploads/44f8b73d-00b9-414d-aff2-f29162d293c9/preview.gif);
+      background-image: url(https://icon-library.com/images/custom-loading-icon/custom-loading-icon-9.jpg);
+      background-image: url(https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App-1024x576.png); */
+      background-image: url(https://icon-library.com/images/weather-icon-gif/weather-icon-gif-24.jpg);
+    }
+    h1{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    #searchandbutton{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    #city{
+      width:25%;
+      padding: 15px;
+      margin-right: 20px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: rgba(66, 135, 212, 0.938) 0px 30px 60px -12px inset, rgb(88, 184, 241) 0px 18px 36px -18px inset;
+    }
+    #maincontainer{
+      display: grid;
+      width: 80%;
+      margin: auto;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 50px;
+      /* background-color: #58B8F1; */
+      text-align: center;
+      
+    }
+   
+  
+    button{
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 8px;
+      border: none;
+      padding: 15px;
+      color: #58B8F1;
+      background-color:white;
+      
+    }
+    #forecast{
+      display: flex;
+      margin: auto;
+      justify-content: space-evenly;
+      width: 90%;
+      background-color: #58B8F1;
+      margin-top: 30px;
+    }
+    #div1{
+      text-align: center;
+      font-weight: 500;
+    }
+    
